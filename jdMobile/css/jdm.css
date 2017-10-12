@@ -1,0 +1,137 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.jdm {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+/*固定搜索*/
+header {
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	background-color: #c91523;
+}
+/*logo*/
+.jdm-logo {
+	position: absolute;
+	left: 10px;
+    top: 10px;
+	width: 56px;
+	height: 21px;	
+	background-image: url(../image/jd-sprites.png);
+	background-position	: 0 -109px;
+    background-size: 200px 200px;	
+	background-repeat: no-repeat;
+}
+/*搜索框*/
+.search-box {
+	width: 100%;
+	height: 100%;
+    padding-left: 75px;
+	padding-right: 50px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.search-box input {
+	width: 100%;
+	height: 30px;
+	border-radius: 15px;
+	margin-top: 5px;
+	box-sizing: border-box;
+	padding-left: 30px;
+	border: none;
+	outline: none;
+}
+/* 放大镜 */
+.search-box i {
+	position: absolute;
+	top: 5px;
+	left: 80px;
+	width: 20px;
+	height: 30px;
+	background-image: url(../image/jd-sprites.png);
+	background-size: 200px 200px;	
+	background-position: -59px -104px;
+}
+
+
+/* 登录 */
+.jdm .jdm-login {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+}
+
+/* 轮播图 */
+.carousel {
+	width: 100%;
+}
+.carousel img {
+	width: 100%;
+	font-size: 0;
+}
+
+/* 导航 */
+.nav {
+	width: 100%;
+	padding-top: 10px;
+	background-color: #f7f7f7;
+}
+.nav ul {
+	width: 100%;
+	overflow: hidden;
+}
+.nav ul li {
+	width: 25%;	
+	padding-bottom: 10px;
+	float: left;
+}
+.nav ul a {
+	display: block;	
+	text-align: center;
+}
+.nav ul img {
+	width: 40px;
+	height: 40px;
+}
+.nav ul span {
+	display: block;
+	margin-top: 5px;
+}
+
+/* 工具栏 */
+.toolbar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 44px;
+	background-color: #fff;
+}
+.toolbar ul {
+	display: flex;
+}
+.toolbar ul li {
+	/* float: left; */
+	flex: 1;
+
+
+}
+.toolbar ul a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.toolbar ul img {
+	height: 44px;
+	width:auto;
+  }
