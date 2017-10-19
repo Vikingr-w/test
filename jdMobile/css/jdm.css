@@ -368,6 +368,10 @@ main {
 .market-bottom ul li:first-child a:nth-child(3) {
 	float: right;
 }
+.market-bottom ul li:nth-child(2) {
+	clear: both;
+} 
+
 .market-bottom ul li:first-child img {
 	width: 100%;
 	vertical-align: middle;
